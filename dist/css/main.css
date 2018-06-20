@@ -9,13 +9,17 @@
   background-color: transparent;
   color: salmon;
   border: 3px solid salmon;
-  padding: .5rem 1rem;
+  padding: .5rem 122rem;
   cursor: pointer;
 }
 
 .btn:hover {
   background-color: salmon;
   color: #fff;
+}
+
+.thing {
+  color: green;
 }
 
 /*# sourceMappingURL=main.css.map */

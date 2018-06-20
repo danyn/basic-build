@@ -4,7 +4,9 @@
   "description": "Basic gulpfile for using gulp-sass",
   "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp sass"
+    "dev": " npm-run-all --parallel gulp serve",
+    "gulp": "gulp sass",
+    "serve": "live-server --open=dist"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,9 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0"
+  },
+  "devDependencies": {
+    "gulp-live-server": "0.0.31",
+    "npm-run-all": "^4.1.3"
   }
 }
